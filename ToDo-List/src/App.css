@@ -1,0 +1,81 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  color: hsl(197, 21%, 87%);
+  max-width: 600px;
+  padding: 60px;
+  margin: 0 auto;
+}
+
+.newForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.btn {
+  background: hsl(200, 100%, 50%, 0.1);
+  border: 1px solid hsl(200, 100%, 50%);
+  color: hsl(201, 37%, 85%);
+  padding: 0.25em 0.5em;
+  border-radius: 0.35em;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background: hsl(200, 100%, 50%, 0.2);
+}
+
+.del-btn {
+  background: hsl(0, 100%, 40%, 0.1);
+  margin: 0.3rem;
+  margin-left: 0.6rem;
+  border: 1px solid hsl(0, 100%, 40%);
+  border-radius: 0.2rem;
+  color: hsl(0, 55%, 76%);
+  cursor: pointer;
+}
+
+.del-btn:hover,
+.del-btn:focus-visible {
+  background: hsl(0, 100%, 40%, 0.2);
+}
+
+.newForm input {
+  outline: none;
+  border: 1px solid hsl(200, 100%, 40%);
+  background: hsl(200, 93%, 29%);
+  border-radius: 0.35em;
+  padding: 0.25em 0.5em;
+  color: hsl(200, 100%, 90%);
+}
+
+.newForm input:focus {
+  border: 1px solid hsl(200, 100%, 70%);
+}
+
+.header {
+  font-size: 1.5rem;
+
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.list {
+  margin: 0;
+  padding: 2px;
+  margin-left: 1rem;
+  list-style: none;
+}
